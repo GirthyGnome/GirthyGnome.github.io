@@ -157,6 +157,10 @@ html {
     background-color: rgb(255, 255, 255);
     color: rgb(31, 31, 31);
 }
+#contact_me :hover {
+    color: rgba(0, 0, 0, 0.877);
+    box-shadow: 0 0 1em rgba(66, 152, 198, 0.87);
+}
 .form {
     display: flex;
     flex-direction: column;
@@ -164,7 +168,7 @@ html {
     align-items: center;
     margin: 2em;
 }
-.input {
+#input {
     padding: 15px;
     margin: 20px;
     width: 25%;
@@ -184,10 +188,6 @@ html {
     margin: 40px;
     border: 1.5px;
     border-style: groove;
-}
-#send_message:hover{
-    color: rgba(0, 0, 0, 0.877);
-    box-shadow: 0 0 1em rgba(66, 152, 198, 0.87);
 }
 
 
