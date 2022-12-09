@@ -13,7 +13,6 @@
             <ul>
                 <li><a href="#home_page">Homepage</a></li>
                 <li><a href="#about_me">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <!-- <li><a href="#">Working Projects</a></li> -->
                 <li><a href="#contact_me">Contact Me</a></li>
             </ul>
@@ -21,76 +20,28 @@
 
         <section id="home_page">
             <div class="main">
-                <h1 class="headers">Hey there,<br>I am Billy Frick</h1>
-                <!-- <h2 class="sub_headers"></h2> -->
+                <h1 class="intro_header">Hey there,<br><br>&emsp;&emsp;I am Billy Frick</h1>
+                <img src="coding_gif.gif" id="coding_image"></img>
             </div>
         </section>
 
         <section id="about_me">
-            <h1 class="headers">ABOUT ME</h1>
-            <div id="introduction">
-                <p>I'm a recent college graduate, and currently attend a full-stack developer bootcamp. I am a proud Air Force veteran who is passionate about game and web development. I obtained my Associate's Degree at the University of Maryland Global Campus, and will be pursuing my Bachelor's in Computer Science. I currently live in Oregon and enjoy to code, work out, play video games, read and spend time with my spouse in the free-time I have. </p>
-                <div id="image">
-                    <img src="pixel_guy.gif" alt="">
-                </div>
-                <h1 class="headers">WORK HISTORY</h1>
-                
-                    <p>1 SEPTEMBER 2015 - 3 APRIL 2020 <br>
-                        Medical Technician, United States Air Force</p><br>
-
-                    <p>APRIL 2020 - MAY 2021 <br>
-                        Attended college to finish A.A. degree<p><br>
-        
-                    <p>1 JUNE 2021 - 3 AUGUST 2022 <br>
-                        Billing, Sales and Field Technician, The Grounds Guy's of The Rogue Valley<p><br>
-                            
-                    <p>SEPTEMBER 2021 - PRESENT<br>
-                        Attending a full-stack developer bootcamp (PDX Code Guild)</p>
-                </div>
-        </section>
-        
-        <section id="skills">
-            <h1 class="headers">HARD SKILLS</h1>
-            <div id="skills_list">
-                <ol>- Python, HTML/CSS, C</ol>
-                <ol>- BLS certified </ol>
-                <ol>- Inventory management</ol>
-                <ol>- Public speaking</ol>
+                <h1 class="headers">ABOUT ME</h1>
+                <p>I am a proud Air Force veteran who is passionate about game and web development. I obtained an A.A. in general studies, and am now working towards my B.S. in Computer Science. I enjoy to code, work out, play video games, read and spend time with my spouse. </p>
             </div>
-            <h1 class="headers">SOFT SKILLS</h1>
-            <div id="skills_list">
-                <ol>- Organized</ol>
-                <ol>- Inclusive</ol>
-                <ol>- Dependable</ol>
-                <ol>- Event Planning</ol>
-                <ol>- Experienced in leadership/followership</ol>
-            </div>
+            <a href="billy_frick_resume_web_safe_version.pdf" id="resume">View my Resume</a>
+            
+            <section id="contact_me">
+                <h1 class="headers">CONTACT ME</h1>
+                <form action="https://formsubmit.co/bwf0061@gmail.com" method="POST">
+                    <input type="email" name="email" required placeholder="Email Address"><br><br>
+                    <input type="text" name="name" required placeholder="Name"><br><br>
+                    <input type="text" id="message" placeholder="Message"><br><br>
+                    <input type="hidden" name="_next" value="https://billyfrick.com/thank_you.html">
+                    <button type="submit">Send</button>
+               </form>
+            </section>
         </section>
-
-        <section id="contact_me">
-            <h1 class="headers">CONTACT ME</h1>
-            <form action="mailto:bwf0061@gmail.com" method="get" enctype="text/plain">
-                <div id="name">
-                  <label for="name">Name:
-                    <input type="text" name="name" id="name" />
-                  </label>
-                </div>
-                <div id="email">
-                  <label for="email">Email:
-                    <input type="text" name="email" id="email" />
-                  </label>
-                </div>
-                <div id="message">
-                  <label>Message:</label>
-                  <textarea name="comments" rows="12" cols="35"></textarea>
-                </div>
-                <div id="send_message">
-                  <input type="submit" name="submit" value="SEND" />
-                  <input type="reset" name="reset" value="CLEAR FORM" />
-                </div>
-              </form>
-            </body>
-          </html>
-        </section>
+    
     </body>
 </html>
